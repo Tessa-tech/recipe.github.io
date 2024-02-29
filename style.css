@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header h1{
+    padding: 20px;
+    background: rgb(10, 83, 32);
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    color: aliceblue;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-right: 8px ;
+    box-shadow: 0 2px 6px rgba(0, 0, 4, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.book img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.book h2{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    min-width: 200px;
+}
+.book p{
+    padding: 10px;
+    color: #455;
+}
+.book a{
+    background:  rgb(10, 83, 32);
+    color: white;
+    min-width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: back 0.3s ease;
+    text-align: center;
+}
+.book a:hover{
+    background: rgb(5, 35, 37);
+    
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 90%;
+    
+    }
+    .book{
+       flex-direction: column; 
+
+    }
+    .book img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .book h2{
+        font-size: 25px;
+        padding: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .book p{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .book a{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
