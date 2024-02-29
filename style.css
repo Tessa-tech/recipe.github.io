@@ -70,6 +70,9 @@ header h1{
         max-width: 90%;
     
     }
+    .header h1{
+        font-size: 20px;
+    }
     .book{
        flex-direction: column; 
 
